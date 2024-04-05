@@ -31,7 +31,9 @@ int main() {
             listarAlunos(alunos, qtd_alunos);
         }
 
-        // system("clear");
+        printf("Enter to contineu...");
+        scanf("%d", &opcao);
+        system("clear");
         printf("%s", menu);
         scanf("%d", &opcao);
     }
